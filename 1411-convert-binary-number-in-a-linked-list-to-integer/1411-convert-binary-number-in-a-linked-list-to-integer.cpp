@@ -19,7 +19,6 @@ public:
         }
         int size=vec.size();
         cout<<vec.size()<<" vec size"<<endl;
-
         for(int i=size-1;i>=0;i--){
             cout<<i<<" i ki value "<< "v[i] value "<<vec[vec.size()-1-i]<<endl;
             if(vec[vec.size()-1-i]==1){
@@ -27,8 +26,8 @@ public:
                 cout<<"power"<<power<<endl;
                 ans+=power;
             }
-         
         }
+        
         return ans;
     }
 };
